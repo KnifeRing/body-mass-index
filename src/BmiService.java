@@ -1,7 +1,6 @@
 public class BmiService {
     // Проверка ИМТ по категориям
-    public static String calculate(double weight, double height) {
-        Double BMID;
+    public String calculate(double weight, double height) {
         double bmi = weight / Math.pow(height, 2); // масса на рост в квадрате
         bmi = (double) ((int) (bmi * 100)) / 100; // округление до двух чисел после запятой
 
