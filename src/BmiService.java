@@ -26,6 +26,7 @@ public class BmiService {
                 System.out.println("Ваш Индекс Массы Тела равен " + (int) bmi + ". У вас ожирение 3 степени.");
             }
         }
-        return 0;
+
+        return (int) bmi;
     }
 }
