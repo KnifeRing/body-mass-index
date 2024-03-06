@@ -3,9 +3,8 @@ public class Main {
         BmiService service = new BmiService();
         double weight, height;
         weight = 98; // вес в кг
-        height = 1.87; // рост в метрах
-        String result = null;
-        result = service.calculate(weight, height);
+        height = 1.87; // рост в метра
+        int result = service.calculate(weight, height);
         System.out.println(result);
     }
 }
